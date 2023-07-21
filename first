@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Practice One</title>
+</head>
+<body>
+    <!--there are two types of markup
+     1. structural markup
+     2. semantic markup-->
+
+
+     <!--STRUCTURAL MARKUP-->
+    <!--headings from 1 to 6 -->
+    <h1>Heading h1</h1>
+    <h2>Heading h2</h2>
+    <h3>Heading h3</h3>
+    <h4>Heading h4</h4>
+    <h5>Heading h5</h5>
+    <h6>Heading h6</h6>
+
+    <!--paragraph tag-->
+    <p>this is inside paragraph tag, each paragraph starts with new line</p>
+    <!--we can use bold tag with or without paragraph tag-->
+    This is how we make a word appear <b>bold  </b>
+    <!--we can use italic tag with or without paragraph tag-->
+   This is how we make a word appear <i>italic</i>
+
+   <!--super and sun script tags-->
+   <p>On the 4<sup>th</sup> of September you will learn
+    about E=MC<sup>2</sup>.</p>
+    <p>The amount of CO<sub>2</sub> in the atmosphere
+    grew by 2ppm in 2009<sub>1</sub>.</p>
+
+    <!-- when a browser indentifies 2 or more white space at same place
+    , it reduces that space to one. this concept is known as white space collapsing-->
+
+
+    <!-- to start in a new line we use br (line break) tag forward slash can come after and before too-->
+    <p>hi my name is abc .<br />i am learning html5 from basic.</p>
+
+    <!--to draw a horizontal line we use hr (horizontal rule) tag  forward slash can come after and before too-->
+    <p>hiiii<hr />byeeee</p>
+
+
+    <!-- there are tags where we write no text in between, these are known as empty elements.
+    it is a great way to write these  a space after the tag and before the slash--> 
+     <p>Venus is the only planet that rotates clockwise.</p>
+     <hr />
+     <p>Jupiter is bigger than all the other planets combined.</p>
+
+     <!--SEMANTIC MARKUP-->
+     the tag <em>emphasis</em> is used. makes text italic  
+     the tag<strong> strong</strong> is used. makes text bold
+     the tag<blockquote> blockquote </blockquote> is used. 
+     the tag<q>q (quote) </q>is used. 
+     <!--in html 4 , there were two tags for specified type( <abbr> & <acronym>), but in html5 there is just one tag <abbr> for both-->
+     <p><abbr title="Professor">Prof</abbr> Stephen Hawking is a theoretical physicist and cosmologist.</p>
+    <p><abbr title="National Aeronautics and Space Administration">NASA</abbr> do some crazy space stuff.</p>
+
+    <!-- cite  should not be used in html5 as much and definations -->
+    <p>this is from <cite>the BOOK</cite>. it makes text italic</p>
+    
+</body>    
+
+</html>
